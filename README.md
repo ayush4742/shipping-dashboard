@@ -1,6 +1,6 @@
 # 📦 Shipping Route Efficiency Dashboard
 
-🚀 **Live App:** https://your-app-name.streamlit.app  
+🚀 **Live App:** https://shipping-dashboard-2xatdotz8erbhztknxt37u.streamlit.app/ 
 📊 **Project Type:** Data Analysis + Interactive Dashboard  
 
 ---

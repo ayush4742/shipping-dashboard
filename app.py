@@ -28,6 +28,9 @@ st.markdown("""
 # Title
 st.markdown("## 📊 Real-time Logistics Performance Insights")
 st.markdown("# 📦 Shipping Route Efficiency Dashboard")
+st.markdown(
+    "This dashboard analyzes shipping efficiency across routes, regions, and shipping modes to identify bottlenecks and optimize logistics."
+)
 
 # Load data
 df = pd.read_csv("Nassau Candy Distributor (2).csv")
@@ -119,6 +122,7 @@ fig_map = px.choropleth(
     color='lead_time_fixed',
     scope="usa",
     color_continuous_scale="Reds",
+    hover_data=['lead_time_fixed'],  # 🔥 ADD THIS
     title="Average Delivery Time by State"
 )
 
